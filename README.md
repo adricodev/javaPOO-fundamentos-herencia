@@ -16,8 +16,11 @@ Clase abstracta `Animal` con `Perro`, `Gato` y `Vaca`. Métodos abstractos, inst
 ### [Ejercicio 04](./ejercicio04StringBuilder/) — Generador de Reportes (StringBuilder)
 Clase abstracta `Reporte` con `ReporteFactura` y `ReporteListaTareas`. StringBuilder para armar reportes, método imprimir() cohesivo, polimorfismo.
 
-### [Ejercicio 05](../src/fundamentosHerencia/) — Electrodomésticos
+### [Ejercicio 05](./ejercicio05/) — Electrodomésticos
 Clase abstracta `Electrodomestico` con `Lavadora`, `Heladera` y `Microondas`. instanceof + cast, condicionales booleanos, setters dinámicos, reflexión.
+
+### [Ejercicio 06](./ejercicio06/) — Envíos y Paquetes
+Enum `CategoriaEnvio` con recargos, clase abstracta `Paquete` con tres tipos (`Pequeno`, `Mediano`, `Grande`). ENUM como tipo de atributo, cálculos condicionales, arrays polimórficos.
 
 ## Contenido cubierto
 
