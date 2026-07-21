@@ -1,4 +1,4 @@
-package fundamentosHerencia.ejercicio06;
+package fundamentosHerencia.ejercicio07;
 
 public abstract class Paquete {
     protected String codigo;

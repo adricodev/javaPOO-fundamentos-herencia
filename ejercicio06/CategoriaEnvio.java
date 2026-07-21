@@ -1,4 +1,4 @@
-package fundamentosHerencia.ejercicio06;
+package fundamentosHerencia.ejercicio07;
 
 public enum CategoriaEnvio {
     ESTANDAR(0.0),
