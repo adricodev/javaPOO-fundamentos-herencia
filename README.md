@@ -22,6 +22,9 @@ Clase abstracta `Electrodomestico` con `Lavadora`, `Heladera` y `Microondas`. in
 ### [Ejercicio 06](./ejercicio06/) — Envíos y Paquetes
 Enum `CategoriaEnvio` con recargos, clase abstracta `Paquete` con tres tipos (`Pequeno`, `Mediano`, `Grande`). ENUM como tipo de atributo, cálculos condicionales, arrays polimórficos.
 
+### [Ejercicio 07](./Ejercicio07/) — Transferencias Bancarias
+Sistema bancario con `Cuenta`, `CuentaAhorro` y `CuentaCorriente`. Herencia, sobrescritura de métodos, `transferir()` con objetos por parámetro, composición, condicionales con límite de descubierto, StringBuilder.
+
 ## Contenido cubierto
 
 - Clases y objetos
