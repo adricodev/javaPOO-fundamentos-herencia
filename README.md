@@ -25,6 +25,15 @@ Enum `CategoriaEnvio` con recargos, clase abstracta `Paquete` con tres tipos (`P
 ### [Ejercicio 07](ejercicio07/) — Transferencias Bancarias
 Sistema bancario con `Cuenta`, `CuentaAhorro` y `CuentaCorriente`. Herencia, sobrescritura de métodos, `transferir()` con objetos por parámetro, composición, condicionales con límite de descubierto, StringBuilder.
 
+### [Ejercicio 08](./ejercicio08/) — Instrumentos Musicales
+Enum `TipoInstrumento`, clase abstracta `Instrumento` con `Guitarra`, `Piano` y `Bateria`. ENUM como tipo de atributo, arrays polimórficos, sobrescritura de toString().
+
+### [Ejercicio 09](./ejercicio09/) — Empleados con Sobrescritura
+Clase base `Empleado` con `EmpleadoJornadaCompleta` y `EmpleadoJornadaParcial`. Sobrescritura de `calcularSalario()`, división con decimales, arrays polimórficos.
+
+### [Ejercicio 10](./ejercicio10/) — Vehículos
+Enum `TipoCombustible`, clase abstracta `Vehiculo` con `Bicicleta` y `Coche`. instanceof + cast, filtrado por tipo, reflexión, métodos propios.
+
 ## Contenido cubierto
 
 - Clases y objetos

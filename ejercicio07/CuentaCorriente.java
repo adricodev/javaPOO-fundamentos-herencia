@@ -1,4 +1,4 @@
-package fundamentosHerencia.ejercicio07;
+package fundamentosHerencia.ejercicio08;
 
 public class CuentaCorriente extends Cuenta{
     private double limiteDescubierto;

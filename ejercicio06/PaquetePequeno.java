@@ -1,4 +1,4 @@
-package fundamentosHerencia.ejercicio07;
+package fundamentosHerencia.ejercicio08;
 
 public class PaquetePequeno extends Paquete{
     private double tarifaBase = 5.0;
