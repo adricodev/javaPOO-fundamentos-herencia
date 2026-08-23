@@ -1,88 +1,47 @@
-# Java Master Class — Curso de Programación Orientada a Objetos
+# Java Master Class — Ejercicios de POO en Java
 
-Ejercicios prácticos de programación orientada a objetos en Java, progresando desde herencia básica hasta enums, polimorfismo, instanceof, reflexión y StringBuilder.
+Colección de ejercicios prácticos de programación orientada a objetos en Java, organizados en **módulos temáticos**. Cada módulo numera sus ejercicios empezando por el **01**, de menor a mayor dificultad.
 
-## Estructura del repositorio
+## Módulos
 
-El código se organiza en dos paquetes temáticos dentro de `src/com/adricodev/`, cada ejercicio en su propio paquete con su `Main` ejecutable y su `README.md` con el enunciado:
+### Fundamentos — las bases de la OO (ejercicios 01–05)
 
-```
-src/
-└── com/adricodev/
-    ├── fundamentos/              # Bases de la OO (ejercicios 01–05)
-    │   ├── ejercicio01/
-    │   ├── ejercicio02/
-    │   ├── ejercicio03TypeCasting/
-    │   ├── ejercicio04StringBuilder/
-    │   └── ejercicio05/
-    └── poo/                      # Aplicación de conceptos (ejercicios 06–10)
-        ├── ejercicio06/
-        ├── ejercicio07/
-        ├── ejercicio08/
-        ├── ejercicio09/
-        └── ejercicio10/
-```
+| # | Ejercicio | Carpeta |
+|---|-----------|---------|
+| 01 | Jerarquía de Personas | [src/com/adricodev/fundamentos/ejercicio01](./src/com/adricodev/fundamentos/ejercicio01/) |
+| 02 | Almacén y Verdulería | [src/com/adricodev/fundamentos/ejercicio02](./src/com/adricodev/fundamentos/ejercicio02/) |
+| 03 | Animales | [src/com/adricodev/fundamentos/ejercicio03TypeCasting](./src/com/adricodev/fundamentos/ejercicio03TypeCasting/) |
+| 04 | Generador de Reportes (StringBuilder) | [src/com/adricodev/fundamentos/ejercicio04StringBuilder](./src/com/adricodev/fundamentos/ejercicio04StringBuilder/) |
+| 05 | Electrodomésticos | [src/com/adricodev/fundamentos/ejercicio05](./src/com/adricodev/fundamentos/ejercicio05/) |
 
-## Módulo: Fundamentos
+### POO — conceptos aplicados (ejercicios 01–05)
 
-### [Ejercicio 01](./src/com/adricodev/fundamentos/ejercicio01/) — Jerarquía de Personas
-Jerarquía con `Persona`, `Empleado`, `Gerente` y `Cliente`. Herencia, constructores con super, toString() sobrescrito, setter de presupuesto en Gerente.
+| # | Ejercicio | Carpeta |
+|---|-----------|---------|
+| 01 | Envíos y Paquetes | [src/com/adricodev/poo/ejercicio01](./src/com/adricodev/poo/ejercicio01/) |
+| 02 | Transferencias Bancarias | [src/com/adricodev/poo/ejercicio02](./src/com/adricodev/poo/ejercicio02/) |
+| 03 | Instrumentos Musicales | [src/com/adricodev/poo/ejercicio03](./src/com/adricodev/poo/ejercicio03/) |
+| 04 | Empleados con Sobrescritura | [src/com/adricodev/poo/ejercicio04](./src/com/adricodev/poo/ejercicio04/) |
+| 05 | Vehículos | [src/com/adricodev/poo/ejercicio05](./src/com/adricodev/poo/ejercicio05/) |
 
-### [Ejercicio 02](./src/com/adricodev/fundamentos/ejercicio02/) — Almacén y Verdulería
-Jerarquía con `Producto`, `Fruta`, `Lacteo`, `Limpieza` y `NoPerecible`. Herencia, arrays polimórficos y reflexión con getClass() y getSuperclass().
+### Interfaces — contratos entre clases (ejercicios 01–06)
 
-### [Ejercicio 03](./src/com/adricodev/fundamentos/ejercicio03TypeCasting/) — Animales (instanceof, cast, reflexión)
-Clase abstracta `Animal` con `Perro`, `Gato` y `Vaca`. Métodos abstractos, instanceof + cast, reflexión y métodos propios por clase.
+| # | Ejercicio | Carpeta |
+|---|-----------|---------|
+| 01 | Figuras Geométricas | [src/com/adricodev/interfaces/ejercicio01](./src/com/adricodev/interfaces/ejercicio01/) |
+| 02 | Voladores | [src/com/adricodev/interfaces/ejercicio02](./src/com/adricodev/interfaces/ejercicio02/) |
+| 03 | Medios de Pago | [src/com/adricodev/interfaces/ejercicio03](./src/com/adricodev/interfaces/ejercicio03/) |
+| 04 | Procesador de Pagos | [src/com/adricodev/interfaces/ejercicio04](./src/com/adricodev/interfaces/ejercicio04/) |
+| 05 | Dispositivos | [src/com/adricodev/interfaces/ejercicio05](./src/com/adricodev/interfaces/ejercicio05/) |
+| 06 | Canales de Notificación | [src/com/adricodev/interfaces/ejercicio06](./src/com/adricodev/interfaces/ejercicio06/) |
 
-### [Ejercicio 04](./src/com/adricodev/fundamentos/ejercicio04StringBuilder/) — Generador de Reportes (StringBuilder)
-Clase abstracta `Reporte` con `ReporteFactura` y `ReporteListaTareas`. StringBuilder para armar reportes, método imprimir() cohesivo, polimorfismo.
+### Repositorio CRUD — acceso a datos (ejercicios 01–06)
 
-### [Ejercicio 05](./src/com/adricodev/fundamentos/ejercicio05/) — Electrodomésticos
-Clase abstracta `Electrodomestico` con `Lavadora`, `Heladera` y `Microondas`. instanceof + cast, condicionales booleanos, setters dinámicos, reflexión.
-
-## Módulo: POO
-
-### [Ejercicio 06](./src/com/adricodev/poo/ejercicio06/) — Envíos y Paquetes
-Enum `CategoriaEnvio` con recargos, clase abstracta `Paquete` con tres tipos (`Pequeno`, `Mediano`, `Grande`). ENUM como tipo de atributo, cálculos condicionales, arrays polimórficos.
-
-### [Ejercicio 07](./src/com/adricodev/poo/ejercicio07/) — Transferencias Bancarias
-Sistema bancario con `Cuenta`, `CuentaAhorro` y `CuentaCorriente`. Herencia, sobrescritura de métodos, `transferir()` con objetos por parámetro, composición, condicionales con límite de descubierto, StringBuilder.
-
-### [Ejercicio 08](./src/com/adricodev/poo/ejercicio08/) — Instrumentos Musicales
-Enum `TipoInstrumento`, clase abstracta `Instrumento` con `Guitarra`, `Piano` y `Bateria`. ENUM como tipo de atributo, arrays polimórficos, sobrescritura de toString().
-
-### [Ejercicio 09](./src/com/adricodev/poo/ejercicio09/) — Empleados con Sobrescritura
-Clase base `Empleado` con `EmpleadoJornadaCompleta` y `EmpleadoJornadaParcial`. Sobrescritura de `calcularSalario()`, división con decimales, arrays polimórficos.
-
-### [Ejercicio 10](./src/com/adricodev/poo/ejercicio10/) — Vehículos
-Enum `TipoCombustible`, clase abstracta `Vehiculo` con `Bicicleta` y `Coche`. instanceof + cast, filtrado por tipo, reflexión, métodos propios.
-
-## Cómo compilar y ejecutar
-
-Desde la raíz del proyecto:
-
-```bash
-# Compilar todos los ejercicios
-javac -d out $(find src -name "*.java")
-
-# Ejecutar cualquier ejercicio (ejemplo: ejercicio 01)
-java -cp out com.adricodev.fundamentos.ejercicio01.Main
-```
-
-También puedes abrir el proyecto en IntelliJ IDEA y ejecutar cada `Main` directamente.
-
-## Contenido cubierto
-
-- Clases y objetos
-- Atributos encapsulados (private/protected)
-- Herencia con super()
-- Sobrescritura de métodos (toString, métodos abstractos)
-- Clases y métodos abstractos
-- Polimorfismo con arrays
-- instanceof y casting explícito
-- Enums con atributos y métodos
-- Composición entre clases
-- Java Reflection API (getClass, getSuperclass, getSimpleName)
-- StringBuilder (append, toString)
-- Métodos cohesivos (imprimir)
-- Condicionales con atributos booleanos
+| # | Ejercicio | Carpeta |
+|---|-----------|---------|
+| 01 | Repositorio de Facturas | [src/com/adricodev/repositorioCRUD/ejercicio01](./src/com/adricodev/repositorioCRUD/ejercicio01/) |
+| 02 | Repositorio de Clientes | [src/com/adricodev/repositorioCRUD/ejercicio02](./src/com/adricodev/repositorioCRUD/ejercicio02/) |
+| 03 | Repositorio de Productos | [src/com/adricodev/repositorioCRUD/ejercicio03](./src/com/adricodev/repositorioCRUD/ejercicio03/) |
+| 04 | Libros por capas | [src/com/adricodev/repositorioCRUD/ejercicio04](./src/com/adricodev/repositorioCRUD/ejercicio04/) |
+| 05 | Empleados por capas | [src/com/adricodev/repositorioCRUD/ejercicio05](./src/com/adricodev/repositorioCRUD/ejercicio05/) |
+| 06 | Libros con Búsquedas | [src/com/adricodev/repositorioCRUD/ejercicio06](./src/com/adricodev/repositorioCRUD/ejercicio06/) |
