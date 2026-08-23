@@ -21,6 +21,6 @@ public abstract class Instrumento {
 
     @Override
     public String toString() {
-        return "nombre='" + nombre + ", tipo=" + tipo;
+        return "nombre='" + nombre + "', tipo=" + tipo;
     }
 }

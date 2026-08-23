@@ -8,7 +8,7 @@ public class PaqueteMediano extends Paquete {
         super(codigo, pesoKg, categoria);
     }
 
-    public double getTairfaBase() {
+    public double getTarifaBase() {
         return tarifaBase;
     }
 
@@ -27,8 +27,8 @@ public class PaqueteMediano extends Paquete {
 
     @Override
     public String toString() {
-        return "PaqueteMedinano{" +
-                "tairfaBase=" + tarifaBase +
+        return "PaqueteMediano{" +
+                "tarifaBase=" + tarifaBase +
                 ", cargoExtra=" + cargoExtra +
                 ", codigo='" + codigo + '\'' +
                 ", pesoKg=" + pesoKg +
