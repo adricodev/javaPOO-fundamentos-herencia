@@ -45,3 +45,13 @@ Colección de ejercicios prácticos de programación orientada a objetos en Java
 | 04 | Libros por capas | [src/com/adricodev/repositorioCRUD/ejercicio04](./src/com/adricodev/repositorioCRUD/ejercicio04/) |
 | 05 | Empleados por capas | [src/com/adricodev/repositorioCRUD/ejercicio05](./src/com/adricodev/repositorioCRUD/ejercicio05/) |
 | 06 | Libros con Búsquedas | [src/com/adricodev/repositorioCRUD/ejercicio06](./src/com/adricodev/repositorioCRUD/ejercicio06/) |
+
+### Genéricos — tipos parametrizados (ejercicios 01–05)
+
+| # | Ejercicio | Carpeta |
+|---|-----------|---------|
+| 01 | De Array a Lista | [src/com/adricodev/genericos/ejercicio01](./src/com/adricodev/genericos/ejercicio01/) |
+| 02 | Caja Genérica | [src/com/adricodev/genericos/ejercicio02](./src/com/adricodev/genericos/ejercicio02/) |
+| 03 | Impresor Genérico | [src/com/adricodev/genericos/ejercicio03](./src/com/adricodev/genericos/ejercicio03/) |
+| 04 | Contenedor Simple | [src/com/adricodev/genericos/ejercicio04](./src/com/adricodev/genericos/ejercicio04/) |
+| 05 | Comparador Genérico | [src/com/adricodev/genericos/ejercicio05](./src/com/adricodev/genericos/ejercicio05/) |
