@@ -46,7 +46,7 @@ Colección de ejercicios prácticos de programación orientada a objetos en Java
 | 05 | Empleados por capas | [src/com/adricodev/repositorioCRUD/ejercicio05](./src/com/adricodev/repositorioCRUD/ejercicio05/) |
 | 06 | Libros con Búsquedas | [src/com/adricodev/repositorioCRUD/ejercicio06](./src/com/adricodev/repositorioCRUD/ejercicio06/) |
 
-### Genéricos — tipos parametrizados (ejercicios 01–05)
+### Genéricos — tipos parametrizados (ejercicios 01–08)
 
 | # | Ejercicio | Carpeta |
 |---|-----------|---------|
@@ -55,3 +55,6 @@ Colección de ejercicios prácticos de programación orientada a objetos en Java
 | 03 | Impresor Genérico | [src/com/adricodev/genericos/ejercicio03](./src/com/adricodev/genericos/ejercicio03/) |
 | 04 | Contenedor Simple | [src/com/adricodev/genericos/ejercicio04](./src/com/adricodev/genericos/ejercicio04/) |
 | 05 | Comparador Genérico | [src/com/adricodev/genericos/ejercicio05](./src/com/adricodev/genericos/ejercicio05/) |
+| 06 | Buscador Genérico | [src/com/adricodev/genericos/ejercicio06](./src/com/adricodev/genericos/ejercicio06/) |
+| 07 | Primer Elemento No Nulo | [src/com/adricodev/genericos/ejercicio07](./src/com/adricodev/genericos/ejercicio07/) |
+| 08 | Intercambio de Posiciones | [src/com/adricodev/genericos/ejercicio08](./src/com/adricodev/genericos/ejercicio08/) |
