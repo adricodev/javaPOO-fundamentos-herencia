@@ -1,6 +1,9 @@
-# Java Master Class — Ejercicios de POO en Java
+# Java exercise Class — Ejercicios de POO en Java
 
-Colección de ejercicios prácticos de programación orientada a objetos en Java, organizados en **módulos temáticos**. Cada módulo numera sus ejercicios empezando por el **01**, de menor a mayor dificultad.
+
+Colección de ejercicios prácticos de programación orientada a objetos en Java, organizados en **módulos temáticos**. Cada módulo numera sus ejercicios empezando por el **01**, de menor a mayor dificultad. 
+Los ejercicios son en base al curso de Udemy de Andrés Guzman "Máster completo de java" siguiendo las secciones del curso.
+
 
 ## Módulos
 
